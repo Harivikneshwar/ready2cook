@@ -358,6 +358,23 @@ nav .menu{
   font-size: 10px;
 }
 }
+@media only screen and (max-width: 600px) {
+#name{
+  width: 250px;
+}
+#phone{
+  width: 250px;
+}
+#email{
+  width: 250px;
+}
+#service{
+  width: 250px;
+}
+#submitform{
+  width: 250px;
+}
+}
 .center1 .title{
   color: #fff;
   font-size: 55px;
