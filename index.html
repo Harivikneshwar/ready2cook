@@ -67,7 +67,7 @@
                               <h6 id="formdetails">Vegetable type :</h6>
                               <div class="form-group">
                                   <select class="form-control" id="service" placeholder="Vegetable type">
-                                      <option>------Select-------</option>
+                                      <option>---Select---</option>
                                       <option>Fresh Vegetables</option>
                                       <option>Chopped Vegetables</option>
                                   </select>
@@ -129,7 +129,7 @@
 </table>
 </div>
 
-  <a href="https://wa.me/919095572239?text=Hi%20There!%20Please%20enter%20following%20details%20to%20order%20Name%20Address%20Vegetables"
+  <a href="https://wa.me/919095572239?text=Hi%20There!%20Please%20enter%20following%20details%20to%20order%0aName%0aAddress%0aVegetables%0aQuantity"
 class="float"
 style="
 position: fixed;
@@ -174,8 +174,8 @@ width="60px"
           var url = "https://wa.me/918270900239?text="
               + "Name: " + name + "%0a"
               + "Phone: " + phone + "%0a"
-              + "Email: " + address + "%0a"
-              + "Email: " + vegetable + "%0a"
+              + "Address: " + address + "%0a"
+              + "Vegetable: " + vegetable + "%0a"
               + "Service: " + service;
 
           window.open(url, '_blank').focus();
