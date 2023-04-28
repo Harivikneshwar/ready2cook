@@ -374,6 +374,12 @@ nav .menu{
 #submitform{
   width: 250px;
 }
+#formdetails{
+  font-size: 10px;
+}
+#menu1{
+  font-size: 25px;
+}
 }
 .center1 .title{
   color: #fff;
